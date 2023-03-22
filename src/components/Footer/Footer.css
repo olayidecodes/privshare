@@ -1,0 +1,10 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 2rem 0;
+    display: flex;
+  }
+
+  p {
+    text-align: center;
+  }

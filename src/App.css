@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Julius+Sans+One&display=swap');
+
+body, * {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.App {
+    background: linear-gradient(90deg, #DE26A0 0%, #068FF1 100%);
+    backgroundSize : "400% 400%";
+    animation : "gradient 25s ease infinite";
+    height: 100vh;
+    padding: 0 10%;
+}
+.boxes {
+    display: flex;
+    gap: 3rem;
+    min-height: 32rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 530px) {
+    .boxes {
+      display: flex;
+      flex-direction: column;
+      height: 80vh;
+      min-height: 40vhem;
+    display: table-cell;
+    vertical-align: middle;
+      text-align: center;
+      border-spacing: 4rem;
+    }
+    .box {
+        padding-top: 30px;
+  padding-bottom: 30px;
+    }
+  }
+
+.boxes > * {
+    flex: 1;
+  }
+
+
+  .text__box h1 {
+    padding-bottom: .4rem;
+  }
+          
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+};
