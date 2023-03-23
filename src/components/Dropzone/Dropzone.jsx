@@ -30,7 +30,7 @@ function Dropzone({ open }) {
           Select files to send
         </button>
       </div>
-      <aside>
+      <aside className="filename">
         <ul>{files}</ul>
       </aside>
     </div>

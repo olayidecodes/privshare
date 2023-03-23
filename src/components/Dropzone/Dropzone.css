@@ -3,6 +3,7 @@
     text-align: center;
     padding: 20px;
     border: 3px rgb(222, 222, 239) dashed;
+    padding: 2rem;
 }
 
 .dropzone-content{
@@ -35,3 +36,8 @@
     background-color: rgb(159, 159, 239);
     color: white;
   }
+
+  .filename ul{
+    margin-top: .5rem;
+    list-style: none;
+}

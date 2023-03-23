@@ -9,13 +9,35 @@ function App() {
 
   return (
     <div className="App">
+      <div class="background">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+</div>
       <Navbar />
       <div className='boxes'>
         
         <Dropzone className="box"/>
         <div className="box text__box">
           <h1>Simple, private file sharing</h1>
-          <p>Wormhole lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn't stay online forever.</p>
+          <p>Privshare lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn't stay online forever.</p>
 
         </div>
       </div>
